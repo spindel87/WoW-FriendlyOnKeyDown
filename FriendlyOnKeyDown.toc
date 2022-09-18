@@ -3,4 +3,4 @@
 ## Notes: 
 ## Author: Spindel
 
-FriendlyTargetOnKeyDown.lua
+FriendlyOnKeyDown.lua
