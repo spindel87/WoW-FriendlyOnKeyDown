@@ -3,12 +3,12 @@
 FriendlyOnKeyDown = { }
 
 function FriendlyOnKeyDown:CreateBinding(key, script)
-    local button = CreateFrame("Button","FriendlyTargetOnHold",nil,"SecureActionButtonTemplate")
-    button:RegisterForClicks("AnyDown","AnyUp")
-    button:SetAttribute("type","macro")
+    local button = CreateFrame("Button", "FriendlyTargetOnHold", nil, "SecureActionButtonTemplate")
+    button:RegisterForClicks("AnyDown", "AnyUp")
+    button:SetAttribute("type", "macro")
     SecureHandlerWrapScript(button, "OnClick", button, script)
     button:RegisterEvent("PLAYER_LOGIN")
-    button:SetScript("OnEvent",function(self,event,...)
+    button:SetScript("OnEvent", function(self,event,...)
         SetOverrideBindingClick(self, true, key, "FriendlyTargetOnHold")
     end)
 end
