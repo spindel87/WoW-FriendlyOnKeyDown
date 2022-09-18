@@ -1,6 +1,6 @@
 ## Interface: 11541
 ## Title: FriendlyTargetOnKeyDown
 ## Notes: 
-## Author: 
+## Author: Spindel
 
 FriendlyTargetOnKeyDown.lua
