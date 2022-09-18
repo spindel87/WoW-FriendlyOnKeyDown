@@ -9,3 +9,5 @@ Combined this with other macros for selecting friendly targets for example
 ```
 /targetfriendplayer 1
 ```
+
+Alt change the lua and uncomment the 5 keybinds and have one key for each friendly player
